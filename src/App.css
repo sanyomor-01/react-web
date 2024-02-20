@@ -87,3 +87,38 @@ nav.dark .toggler-dark{
 nav.dark .toggler{
   justify-content: flex-end;
 }
+
+/*main styles*/
+main{
+  padding: 75px 27px;
+  background-image: url("./assets/react-icon-light.png");
+  background-repeat: no-repeat;
+  flex: 1 1 auto;
+  background-color: white;
+  color: #2B283A;
+}
+main.dark{
+  background-image: url("./assets/react-icon-dark.png");
+  background-color: #2B283A;
+  color: white;
+}
+
+.main-title{
+  margin: 0;
+  font-size: 42px;
+  letter-spacing: -0.05em;
+}
+
+.main-facts{
+  margin-top:46px ;
+  max-width: 500px;
+}
+
+.main-facts >li{
+  line-height: 18px;
+  padding-block: 10px;
+}
+.main-facts > li::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
