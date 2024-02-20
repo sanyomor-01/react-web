@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+/*Container styles*/
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* nav styles*/
+nav{
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  z-index: 1;
+}
+
