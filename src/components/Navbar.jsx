@@ -1,6 +1,5 @@
 import React from "react";
-
-
+ 
 export default function Navbar(props) {
     return(
         <nav className={props.darkMode ? "dark": ""}>           
@@ -8,7 +7,7 @@ export default function Navbar(props) {
             className="nav--logo_icon"
             src="./assets/react-icon-small.png"
     />
-            <h3>ReactFacts</h3>
+            <h3 className="nav-icon-text">ReactFacts</h3>
 
             <div className="toggler"
              onClick={props.toggleDarkMode}
